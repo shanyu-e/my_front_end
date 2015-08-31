@@ -1,0 +1,66 @@
+/*.navbar {*/
+    /*padding-left: 5%;*/
+    /*padding-right: 5%;*/
+/*}*/
+
+.head {
+    margin-top: 50px;
+}
+
+.head .form {
+    width: 80%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: auto;
+}
+
+.head .dropdown-menu {
+    width: 20em;
+}
+
+body {
+    background: url("../images/meteor-icon.svg") repeat;
+}
+
+.foot .main .footer {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    text-align: center;
+}
+
+.body .my-left-margin {
+    margin-top: 1%;
+    padding-left: 7%;
+}
+
+@media (max-width: 768px) {
+    .head .navbar {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .body .tb {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+
+@media (min-width: 992px) {
+    .head .navbar {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .body .main {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .foot .main {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    /*.body .tb .tbb {*/
+        /*margin-left: 1em;*/
+    /*}*/
+    /*.foot .tf .tff {*/
+        /*margin-left: 10em;*/
+    /*}*/
+}
